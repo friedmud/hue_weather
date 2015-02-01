@@ -21,6 +21,7 @@ low_temp = False
 color_changed_time = 0
 
 def changeLightColor(lights, rgb_color):
+    global color_changed_time
     color_changed_time = time.time()
     for l in lights:
         l.xy = converter.rgbToCIE1931(rgb_color[0], rgb_color[1], rgb_color[2])
