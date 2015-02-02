@@ -39,7 +39,7 @@ Clone the repository from Github...
 
 ### config.py
 
-The next thing you'll need is to create a `setup.py` file inside your clone.  You'll need your OWM key, your IP address for your Hue Bridge and the ID of the cities weather you want to track from OWM.
+The next thing you'll need is to create a `config.py` file inside your clone.  You'll need your OWM key, your IP address for your Hue Bridge and the ID of the cities weather you want to track from OWM.
 
 ```python
 # Hue bridge IP address
